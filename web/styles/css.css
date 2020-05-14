@@ -52,3 +52,12 @@ div.content {
 	background: url("../../Imagenes/Fondo1.jpg");
 	background-size: 100% 100%;
 }
+.footer {
+	background-color: #241d1b;
+	text-align: left;
+}
+
+.footer h3 {
+	font-size: 24px;
+	padding: 30px;
+}
