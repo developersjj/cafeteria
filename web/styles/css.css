@@ -1,6 +1,60 @@
+
+/* TIPOGRAFIA STYLE------------------------------------*/
+
+@font-face{
+	font-family: proyecto;
+	src: url(../../Tipografia/OpenSans-Regular.ttf) format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face{
+	font-family: "proyecto grueso";
+	src: url(../../Tipografia/OpenSans-Bold.ttf) format("truetype");
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+/* Body stile---------------------------------------------------- */
+
 body {
 	width: fit-content;
 }
+
+/* General Styile------------------------------ */
+
+div {
+	font-family: "proyecto grueso";
+	color: #f5f0ed;
+	/*max-height: 500px;*/
+	text-align: center;
+
+}
+p {
+	font-family: proyecto, Arial;
+	font-size: 16px;
+	padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 44px;
+	padding: 10px;
+}
+
+/* Especific Styile------------------------------ */
+
+
+/* class content Styile------------------------------ */
+
+div.content {
+	position: relative;
+	background: url("../../Imagenes/Fondo1.jpg");
+	background-size: 100% 100%;
+}
+
+/* class content-box (red and beige) Styile------------------------------ */
 
 .red-box {
 	padding: 20px;
@@ -30,25 +84,4 @@ body {
 	text-decoration: underline;
 	font-size: 120%;
 	padding-bottom: 10px;
-}
-div {
-	color: white;
-	/*max-height: 500px;*/
-	text-align: center;
-}
-p {
-	font-size: 20px;
-	padding: 20px;
-}
-
-h1,
-h2,
-h3 {
-	font-size: 50px;
-	padding: 10px;
-}
-div.content {
-	position: relative;
-	background: url("../../Imagenes/Fondo1.jpg");
-	background-size: 100% 100%;
 }
