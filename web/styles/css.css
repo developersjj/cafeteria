@@ -33,7 +33,8 @@ div {
 p {
 	font-family: proyecto, Arial;
 	font-size: 16px;
-	padding: 20px;
+	padding: 50px 20px;
+	padding-bottom: 60px; 
 }
 
 h1,
@@ -53,6 +54,26 @@ div.content {
 	background: url("../../Imagenes/Fondo1.jpg");
 	background-size: 100% 100%;
 }
+
+/* Lanzador-menu -----------------------------------------------------------*/
+	div.logo-menu{
+		display: block;
+	}
+
+	a.lanzador-menu{
+
+		padding-left: 20%; 
+
+	}
+
+
+
+/* rayitas -----------------------------------------------------------*/
+	div.rayita{
+		border-bottom: 3px solid #f5f0ed;
+		margin-right: 35% ;
+		margin-left:  35% ;
+	}
 
 /* class content-box (red and beige) Styile------------------------------ */
 
@@ -94,3 +115,11 @@ div.content {
 	font-size: 24px;
 	padding: 30px;
 }
+
+div.content2 {
+	position: relative;
+	background: url("../../Imagenes/Fondo2.jpg");
+	background-size: 100% 100%;
+}
+
+	
