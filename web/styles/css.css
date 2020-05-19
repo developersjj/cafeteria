@@ -1,51 +1,48 @@
-
 /* TIPOGRAFIA STYLE------------------------------------*/
 
-@font-face{
+@font-face {
 	font-family: proyecto;
 	src: url(../../Tipografia/OpenSans-Regular.ttf) format("truetype");
 	font-weight: bold;
 	font-style: normal;
 }
-@font-face{
+@font-face {
 	font-family: "proyecto grueso";
 	src: url(../../Tipografia/OpenSans-Bold.ttf) format("truetype");
 	font-weight: bold;
 	font-style: normal;
-
 }
 
 /* Body stile---------------------------------------------------- */
 
 body {
 	width: fit-content;
+	color: #f5f0ed;
 }
 
 /* General Styile------------------------------ */
 
 div {
 	font-family: "proyecto grueso";
-	color: #f5f0ed;
 	/*max-height: 500px;*/
 	text-align: center;
-
 }
 p {
 	font-family: proyecto, Arial;
 	font-size: 16px;
-	padding: 50px 20px;
-	padding-bottom: 60px; 
 }
 
-h1,
-h2,
-h3 {
+h1 {
 	font-size: 44px;
-	padding: 10px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
 }
 
 /* Especific Styile------------------------------ */
-
 
 /* class content Styile------------------------------ */
 
@@ -56,45 +53,28 @@ div.content {
 }
 
 /* Lanzador-menu -----------------------------------------------------------*/
-	div.logo-menu{
-		display: block;
-	}
+div.logo-menu {
+	display: block;
+}
 
-	a.lanzador-menu{
-
-		padding-left: 20%; 
-
-	}
-
-
+a.lanzador-menu {
+	padding-left: 20%;
+}
 
 /* rayitas -----------------------------------------------------------*/
-	div.rayita{
-		border-bottom: 3px solid #f5f0ed;
-		margin-right: 35% ;
-		margin-left:  35% ;
-	}
-
-/* class content-box (red and beige) Styile------------------------------ */
-
-.red-box {
-	padding: 20px;
-	color: #ded6c0;
-	background-color: #d03b40;
+div.rayita {
+	border-bottom: 3px solid #f5f0ed;
+	margin-right: 35%;
+	margin-left: 35%;
 }
 
-.red-box a {
-	color: #ded6c0;
-}
+/* class color-box (red and beige) Styile------------------------------ */
 
-.beige-box {
-	padding: 20px;
-	color: #d03b40;
-	background-color: #ded6c0;
+.color-box p {
+	/* padding-bottom: 30px; */
 }
-
-.beige-box a {
-	color: #d03b40;
+.color-box h3 {
+	padding: 0px 10px 25px;
 }
 
 .color-box a {
@@ -106,14 +86,41 @@ div.content {
 	font-size: 120%;
 	padding-bottom: 10px;
 }
-.footer {
-	background-color: #241d1b;
-	text-align: left;
+
+.red-box {
+	padding: 40px 20px;
+	color: #ded6c0;
+	background-color: #d03b40;
 }
 
-.footer h3 {
-	font-size: 24px;
+.red-box a {
+	color: #ded6c0;
+}
+
+.beige-box {
+	padding: 40px 20px;
+	color: #d03b40;
+	background-color: #ded6c0;
+}
+
+.beige-box a {
+	color: #d03b40;
+}
+
+/* class content-white-box Styile------------------------------ */
+.content-white-box {
+	color: #3c3c3b;
+}
+.white-box {
+	text-align: start;
+}
+.white-box img {
+	max-height: 80px;
+}
+.footer {
+	background-color: #241d1b;
 	padding: 30px;
+	text-align: left;
 }
 
 div.content2 {
@@ -121,5 +128,3 @@ div.content2 {
 	background: url("../../Imagenes/Fondo2.jpg");
 	background-size: 100% 100%;
 }
-
-	
