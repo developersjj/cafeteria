@@ -16,6 +16,7 @@
 /* Body stile---------------------------------------------------- */
 
 body {
+	color: #f5f0ed;
 	width: fit-content;
 	color: #f5f0ed;
 }
@@ -50,6 +51,11 @@ div.content {
 	position: relative;
 	background: url("../../Imagenes/Fondo1.jpg");
 	background-size: 100% 100%;
+	padding: 15px;
+}
+div.content h1 {
+	margin-top: 20px;
+	/*margin-bottom: 10px; */
 }
 
 /* Lanzador-menu -----------------------------------------------------------*/
@@ -58,9 +64,13 @@ div.logo-menu {
 }
 
 a.lanzador-menu {
-	padding-left: 20%;
+	display: inline-block;
+	background-color: #d03b40;
+	margin-left: 20%;
 }
-
+.lanzador-menu img {
+	color: #d03b40;
+}
 /* rayitas -----------------------------------------------------------*/
 div.rayita {
 	border-bottom: 3px solid #f5f0ed;
@@ -70,9 +80,6 @@ div.rayita {
 
 /* class color-box (red and beige) Styile------------------------------ */
 
-.color-box p {
-	/* padding-bottom: 30px; */
-}
 .color-box h3 {
 	padding: 0px 10px 25px;
 }
