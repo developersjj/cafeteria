@@ -18,6 +18,7 @@
 /* Body stile---------------------------------------------------- */
 
 body {
+	color: #f5f0ed;
 	width: fit-content;
 }
 
@@ -25,7 +26,6 @@ body {
 
 div {
 	font-family: "proyecto grueso";
-	color: #f5f0ed;
 	/*max-height: 500px;*/
 	text-align: center;
 
@@ -33,17 +33,20 @@ div {
 p {
 	font-family: proyecto, Arial;
 	font-size: 16px;
-	padding: 50px 20px;
-	padding-bottom: 60px; 
+	/*padding: 50px 20px;*/
+	padding: 30px 0px; 
 }
 
 h1,
 h2,
 h3 {
-	font-size: 44px;
-	padding: 10px;
+	font-size: 28px;
+	/*padding: 10px;*/
 }
 
+h2,h3{
+	font-size: 24px;
+}
 /* Especific Styile------------------------------ */
 
 
@@ -53,6 +56,11 @@ div.content {
 	position: relative;
 	background: url("../../Imagenes/Fondo1.jpg");
 	background-size: 100% 100%;
+	padding: 15px;
+}
+div.content h1{
+	margin-top: 20px;
+	/*margin-bottom: 10px; */
 }
 
 /* Lanzador-menu -----------------------------------------------------------*/
@@ -61,8 +69,13 @@ div.content {
 	}
 
 	a.lanzador-menu{
+display: inline-block;
+		background-color: #d03b40; 
+		margin-left: 20%;
 
-		padding-left: 20%; 
+	}
+	.lanzador-menu img{
+		color: #d03b40; 
 
 	}
 
@@ -71,6 +84,7 @@ div.content {
 /* rayitas -----------------------------------------------------------*/
 	div.rayita{
 		border-bottom: 3px solid #f5f0ed;
+		margin: 25px; 
 		margin-right: 35% ;
 		margin-left:  35% ;
 	}
@@ -78,9 +92,10 @@ div.content {
 /* class content-box (red and beige) Styile------------------------------ */
 
 .red-box {
-	padding: 20px;
+	/*padding: 20px;*/
 	color: #ded6c0;
 	background-color: #d03b40;
+
 }
 
 .red-box a {
@@ -88,7 +103,7 @@ div.content {
 }
 
 .beige-box {
-	padding: 20px;
+	/*padding: 20px;*/
 	color: #d03b40;
 	background-color: #ded6c0;
 }
@@ -121,5 +136,18 @@ div.content2 {
 	background: url("../../Imagenes/Fondo2.jpg");
 	background-size: 100% 100%;
 }
+.content-box{
+	color: #3c3c3b;
+}
+.content-box img{
+margin: 10px;
+max-height: 100px;
+}
 
-	
+	.content2 a{
+		border: 1px solid #f5f0ed;
+		color: #f5f0ed;
+		margin-bottom: 30px;
+		display: inline-block;
+
+	}
