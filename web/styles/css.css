@@ -17,8 +17,7 @@
 
 body {
 	color: #f5f0ed;
-	width: fit-content;
-	color: #f5f0ed;
+	/* width: fit-content; */
 }
 
 /* General Styile------------------------------ */
@@ -43,7 +42,7 @@ h3 {
 	font-size: 24px;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
@@ -57,18 +56,18 @@ div.content {
 	background-size: 100% 100%;
 	padding: 15px;
 }
-	div.content h1 {
-		margin-top: 20px;
-	}
+div.content h1 {
+	margin-top: 20px;
+}
 
-	.content p{
-		padding-bottom: 25%;
-	}
+.content p {
+	padding-bottom: 25%;
+}
 
-	.content h2{
-		padding-bottom: 20px;
-		padding-top: 40px;
-	}
+.content h2 {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
 
 /*---------------------------------class content2------------------------*/
 div.content2 {
@@ -76,37 +75,28 @@ div.content2 {
 	background: url("../../Imagenes/Fondo2.jpg");
 	background-size: 100% 100%;
 	padding: 15px;
-
 }
-	.content2 a{
-			border: 2px solid #f5f0ed;
-			color: #f5f0ed;
-			margin-bottom: 30px;
-			display: inline-block;
-			margin-bottom: 25%;
-			padding: 10px 10px;
-
-	}
-	.content2 a:hover {
-			border: 2px solid #d03b40;
-			color: #d03b40;
-			margin-bottom: 30px;
-			display: inline-block;
-			margin-bottom: 25%;
-			text-decoration: blink;
-			padding: 10px 10px;
-
+.content2 a {
+	border: 2px solid #f5f0ed;
+	color: #f5f0ed;
+	display: inline-block;
+	margin-bottom: 25%;
+	padding: 6px;
+}
+.content2 a:hover {
+	border-color: #d03b40;
+	color: #d03b40;
+	text-decoration: blink;
 }
 
-	.content2 p{
-		padding-bottom: 35px
-	}
+.content2 p {
+	padding-bottom: 35px;
+}
 
-	.content2 h2{
-		padding-bottom: 20px;
-		padding-top: 40px;
-	}
-
+.content2 h2 {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
 
 /* Lanzador-menu -----------------------------------------------------------*/
 div.logo-menu {
@@ -128,7 +118,7 @@ div.rayita {
 	margin-left: 35%;
 	margin-bottom: 40px;
 	margin-top: 20px;
-	}
+}
 
 /* class color-box (red and beige) Styile------------------------------ */
 
@@ -167,13 +157,17 @@ div.rayita {
 }
 
 /* class content-white-box Styile------------------------------ */
+
 .content-white-box {
 	color: #3c3c3b;
+	padding-bottom: 50px;
 }
-.white-box {
+.white-box .text {
+	padding: 5px 15px;
 	text-align: start;
 }
 .white-box img {
+	margin-top: 50px;
 	max-height: 80px;
 }
 /* ------------------------------class footer -------------------------*/
