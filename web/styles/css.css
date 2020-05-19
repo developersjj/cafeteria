@@ -81,7 +81,6 @@ div.content2 {
 	.content2 a{
 			border: 2px solid #f5f0ed;
 			color: #f5f0ed;
-			margin-bottom: 30px;
 			display: inline-block;
 			margin-bottom: 25%;
 			padding: 10px 10px;
@@ -90,9 +89,6 @@ div.content2 {
 	.content2 a:hover {
 			border: 2px solid #d03b40;
 			color: #d03b40;
-			margin-bottom: 30px;
-			display: inline-block;
-			margin-bottom: 25%;
 			text-decoration: blink;
 			padding: 10px 10px;
 
