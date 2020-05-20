@@ -27,6 +27,7 @@ div {
 	font-family: "proyecto grueso";
 	/*max-height: 500px;*/
 	text-align: center;
+
 }
 p {
 	font-family: proyecto, Arial;
@@ -57,8 +58,8 @@ div.content {
 	background-size: 100% 100%;
 	padding: 15px;
 }
-	div.content h1 {
-		margin-top: 20px;
+	div.content h2 {
+		margin-top: 10%;
 	}
 
 	.content p{
@@ -69,6 +70,10 @@ div.content {
 		padding-bottom: 20px;
 		padding-top: 40px;
 	}
+@media screen and (max-width: 1400px){
+
+
+}	
 
 /*---------------------------------class content2------------------------*/
 div.content2 {
@@ -106,17 +111,29 @@ div.content2 {
 
 /* Lanzador-menu -----------------------------------------------------------*/
 div.logo-menu {
-	display: block;
+	display: inline-block;
+}
+.logo{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	margin: 20px;
 }
 
 a.lanzador-menu {
 	display: inline-block;
 	background-color: #d03b40;
-	margin-left: 20%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin: 20px;
 }
-.lanzador-menu img {
-	color: #d03b40;
+@media screen and (min-width: 1400px){
+	a.lanzador-menu{
+		display: none;
+	}
 }
+
 /* rayitas -----------------------------------------------------------*/
 div.rayita {
 	border-bottom: 3px solid #f5f0ed;
@@ -161,7 +178,21 @@ div.rayita {
 .beige-box a {
 	color: #d03b40;
 }
+@media screen and (min-width: 1400px){
+	.beige-box{
+		float:right;
+		max-width: 50%;
+		min-height: 223px;
+		}
+	.beige-box p{
+		padding: 0px 15px ;
+	}
 
+	.red-box{
+		max-width: 50%;
+	}
+	}
+}
 /* class content-white-box Styile------------------------------ */
 .content-white-box {
 	color: #3c3c3b;
@@ -171,6 +202,13 @@ div.rayita {
 }
 .white-box img {
 	max-height: 80px;
+}
+@media screen and (min-width: 1400px){
+	.white-box{
+		float: left;
+		max-width: 50%;
+	}
+	}
 }
 /* ------------------------------class footer -------------------------*/
 .footer {
