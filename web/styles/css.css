@@ -68,7 +68,7 @@ div.content h2 {
 	padding-bottom: 20px;
 	padding-top: 40px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 500px) {
 }
 
 /*---------------------------------class content2------------------------*/
@@ -119,7 +119,7 @@ a.lanzador-menu {
 	top: 0px;
 	margin: 20px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 500px) {
 	a.lanzador-menu {
 		display: none;
 	}
@@ -169,25 +169,29 @@ div.rayita {
 .beige-box a {
 	color: #d03b40;
 }
-@media screen and (min-width: 1400px) {
-	.beige-box {
-		float: right;
-		max-width: 50%;
-		min-height: 223px;
+@media screen and (min-width: 400px) {
+	.color-box {
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
 	}
-	.beige-box p {
-		padding: 0px 15px;
-	}
-
-	.red-box {
-		max-width: 50%;
+	.color-box div {
+		width: 50%;
 	}
 }
+/* @media screen and (min-width: 600px) { */
+
+/* } */
 /* class content-white-box Styile------------------------------ */
 
 .content-white-box {
 	color: #3c3c3b;
 	padding-bottom: 50px;
+}
+.white-box {
+	text-align: center;
+	height: 50%;
+	float: none;
 }
 .white-box .text {
 	padding: 5px 15px;
@@ -197,10 +201,20 @@ div.rayita {
 	margin-top: 50px;
 	max-height: 80px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 400px) {
+	.content-white-box {
+		display: flex;
+		height: auto;
+		flex-wrap: wrap;
+	}
 	.white-box {
-		float: left;
-		max-width: 50%;
+		padding: 0px 10%;
+	}
+}
+@media screen and (min-width: 600px) {
+	.white-box {
+		padding: 0px;
+		width: 50%;
 	}
 }
 /* ------------------------------class footer -------------------------*/
