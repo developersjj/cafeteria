@@ -68,7 +68,14 @@ div.content h2 {
 	padding-bottom: 20px;
 	padding-top: 40px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
+	.content h2{ 
+		font-size: 3em;
+	}
+	.content p{
+		font-size: 2em;
+
+	}
 }
 
 /*---------------------------------class content2------------------------*/
@@ -99,6 +106,15 @@ div.content2 {
 	padding-bottom: 20px;
 	padding-top: 40px;
 }
+@media screen and (min-width: 500px) {
+	.content2 h2{ 
+		font-size: 3em;
+	}
+	.content2 p{
+		font-size: 2em;
+		
+	}
+}
 
 /* Lanzador-menu -----------------------------------------------------------*/
 div.logo-menu {
@@ -119,7 +135,7 @@ a.lanzador-menu {
 	top: 0px;
 	margin: 20px;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
 	a.lanzador-menu {
 		display: none;
 	}
@@ -234,4 +250,21 @@ div.rayita {
 }
 .navegacion li a:hover {
 	background-color: black;
+}
+@media screen and (min-width: 700px) {
+	.navegacion{
+		/*float: left;*/
+		position: absolute;
+		top: 6%;
+		right: 25px;
+	}
+	.navegacion li{
+		display: inline-block;
+		
+	}
+	.navegacion li a {
+	background-color: transparent;
+	color: #f5f0ed;
+	margin: 2px;
+	border: 0px solid #f5f0ed;}
 }
