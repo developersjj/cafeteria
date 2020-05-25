@@ -251,7 +251,9 @@ div.rayita {
 .navegacion li a:hover {
 	background-color: black;
 }
-@media screen and (min-width: 700px) {
+
+
+@media screen and (min-width: 701px) {
 	.navegacion{
 		/*float: left;*/
 		position: absolute;
@@ -268,3 +270,22 @@ div.rayita {
 	margin: 2px;
 	border: 0px solid #f5f0ed;}
 }
+
+/*-------------------------------JS en accion--------------------------*/
+
+@media screen and (max-width: 700px) {
+	.js .navegacion{
+		list-style: none;
+		max-height: 0px ;
+		overflow: hidden;
+		transition: max-height .5s;
+		position: absolute;
+		top: 3px;
+		right: 78px;
+	}
+
+	.js .navegacion-desplegado {
+
+		max-height: 200px;
+	}
+} 
